@@ -92,12 +92,15 @@ body{
     }
   }
 
-  @media only screen and (max-width: 850px){
+  @media only screen and (max-width: 700px){
     .main .heading h1{
       font-size: 40px;
     }
     .main .heading h4{
       font-size: 26px;
+    }
+    .header nav a{
+      font-size: 20px;
     }
   }
 
@@ -831,7 +834,6 @@ body{
   }
 
   img{
-    margin-top: 40px;
     width: 100%;
   }
   .project-description{
@@ -933,7 +935,6 @@ body{
   }
 
   img{
-    margin-top: 40px;
     width: 100%;
   }
   .project-description{
@@ -1036,7 +1037,6 @@ body{
   }
 
   img{
-    margin-top: 40px;
     width: 100%;
   }
   .project-description{
@@ -1139,7 +1139,6 @@ body{
   }
 
   img{
-    margin-top: 40px;
     width: 100%;
   }
   .project-description{
@@ -1242,7 +1241,6 @@ body{
   }
 
   img{
-    margin-top: 40px;
     width: 100%;
   }
   .project-description{
