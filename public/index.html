@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0ce8fbb208.js" crossorigin="anonymous"></script>
+    <script defer src="./js/index.js"></script>
   </head>
   <body>
     <section id="home">
@@ -14,9 +15,9 @@
         <a target="_blank" class="git" href="https://github.com/ricardomejiasilva"><i class="fab fa-github"></i></a>
         <nav>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a class="projects" href="#portfolio">Projects</a></li>
+            <li class="home-btn"><a href="#home">Home</a></li>
+            <li class="skills-btn"><a href="#skills">Skills</a></li>
+            <li class="projects-btn"><a class="projects" href="#portfolio">Projects</a></li>
           </ul>
         </nav>
       </header>
@@ -31,7 +32,7 @@
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section section--hidden">
       <div class="page-title">
         <i class="fas fa-tools"></i>
         <h1>skills</h1>
@@ -115,7 +116,7 @@
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="section section--hidden">
       <div class="works">
         <h1>My Works</h1>
       </div>
@@ -160,52 +161,58 @@
         <h2>Emails</h2>
       </div>
   
-      <div class="email-container">
-        <div class="email-1">
-          <a href="./adobe-email.html" class="img-wrap">
-            <div class="box-img"></div>
-        
-            <div class="text-wrapper">
-              <i class="far fa-envelope-open"></i>
-            </div>
-          </a>
+
       
-          <a href="./adobe-email.html" class="project-title">
-            <h6>Adobe</h6>
-            <p>HTML Email</p>
-          </a>
+        <div class="email-container">
+          <div class="email-1">
+            <a href="./adobe-email.html" class="img-wrap">
+              <div class="box-img"></div>
+          
+              <div class="text-wrapper">
+                <i class="far fa-envelope-open"></i>
+              </div>
+            </a>
+        
+            <a href="./adobe-email.html" class="project-title">
+              <h6>Adobe</h6>
+              <p>HTML Email</p>
+            </a>
+          </div>
+    
+          <div class="email-2">
+            <a href="./apple-email.html" class="img-wrap">
+              <div class="box-img"></div>
+          
+              <div class="text-wrapper">
+                <i class="far fa-envelope-open"></i>
+              </div>
+            </a>
+        
+            <a href="./apple-email.html" class="project-title">
+              <h6>Apple</h6>
+              <p>HTML Email</p>
+            </a>
+          </div>
         </div>
   
-        <div class="email-2">
-          <a href="./apple-email.html" class="img-wrap">
-            <div class="box-img"></div>
+        <div class="email-container-2">
+          <div class="email-3">
+            <a href="./chipotle-email.html" class="img-wrap">
+              <div class="box-img"></div>
+          
+              <div class="text-wrapper">
+                <i class="far fa-envelope-open"></i>
+              </div>
+            </a>
         
-            <div class="text-wrapper">
-              <i class="far fa-envelope-open"></i>
-            </div>
-          </a>
-      
-          <a href="./apple-email.html" class="project-title">
-            <h6>Apple</h6>
-            <p>HTML Email</p>
-          </a>
-        </div>
-  
-        <div class="email-3">
-          <a href="./chipotle-email.html" class="img-wrap">
-            <div class="box-img"></div>
-        
-            <div class="text-wrapper">
-              <i class="far fa-envelope-open"></i>
-            </div>
-          </a>
-      
-          <a href="./chipotle-email.html" class="project-title">
-            <h6>Chipotle</h6>
-            <p>HTML Email</p>
-          </a>
+            <a href="./chipotle-email.html" class="project-title">
+              <h6>Chipotle</h6>
+              <p>HTML Email</p>
+            </a>
+          </div>
         </div>
       </div>
+      
 
     </section>
   </body>
